@@ -1,0 +1,232 @@
+:root{
+  --padding: 5px
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-top: 30px;
+    
+ }
+ .corps{
+   background-color: aliceblue;
+   margin: 15px;
+ }
+ 
+
+ #logo{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+   
+ }
+ 
+#task{
+   justify-content: space-between;
+   margin-top: 20;
+}
+.conteneur-barre-recherche{
+   display: flex; 
+   width: fit-content;
+   border-radius: 3px;
+   
+  }
+  
+  .conteneur-barre-recherche-icone{
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px 0px 0px 0px
+  }
+  .conteneur-barre-recherche-input{
+    height: 34px;
+    border:none ;
+    border-radius: 0px 10px 0px 0px;
+  }
+
+.forme{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      align-items: end;
+
+      }
+  .header-contact{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   gap: 10px;
+   margin-left: 0px;
+   border-bottom: 1px solid;
+   width: 100%;
+   height: 50%;
+   
+
+  }
+ 
+  .corps-texte-contact{
+   background-color: white;
+   width: 100%;
+   margin-right: 10px;
+   border-radius: 20px;
+   margin-left: 30px;
+   height: 55rem;
+  
+  }
+  .parent{
+   display: flex;
+   
+
+  }
+.border{
+  border-radius: 13px;
+  
+  background-color:rgb(148, 204, 250);
+  padding: 10px;
+  border: none;
+  margin-bottom: 20px;
+}
+.contact{
+  border-radius: 100px;
+  border: none;
+  background-color: rgb(148, 204, 250);
+  padding: 9px;
+  height: 2rem;
+ width: 10rem;
+ text-align: left;
+
+}
+.enregistrer-contact{
+  display: none;
+  background-color:white ;
+  margin: 15px;
+  border-radius: 20px;
+  width: 100%;
+  height: 55rem;
+}
+.bouton{
+  border-radius: 20px;
+  background-color: rgb(224, 224, 224);
+  border: none;
+  padding: 10px;
+  margin-left: 500px;
+
+}
+.enregistrer-header{
+  display: flex;
+ 
+}
+.bouton-libellé{
+  border-radius: 6px;
+  border: 1px;
+}
+.Nom{
+ padding: 9px;
+ display: flex;
+ flex-direction: column;
+ 
+
+}
+.prenom{
+margin: 5px;
+padding: 0px;
+height: 30px;
+
+padding: var(--padding);
+}
+.nom{
+margin: 5px;
+padding: 0px;
+height: 30px;
+width: 300px;
+border-radius: 6px;
+padding: var(--padding);
+}
+.entreprise-fonction{
+margin: 5px;
+padding: 0px;
+height: 30px;
+width: 300px;
+border-radius: 6px;
+padding: var(--padding);
+}
+.entreprise{
+margin: 5px;
+padding: 0px;
+height: 30px;
+width: 300px;
+border-radius: 6px;
+padding: var(--padding);
+}
+.fonction{
+  margin: 6px;
+  padding: 0px;
+  height: 30px;
+  width: 300px;
+  border-radius: 6px;
+  padding: var(--padding);
+  }
+  .e-mail{
+    height: 30px;
+    margin: 5px;
+   
+   
+    }
+  .ajouter{
+  margin: 6px;
+  padding: 0px;
+  height: 30px;
+  width: 300px;
+  border-radius: 100px;
+  }
+  .picture{
+    width: 200px;
+    height: auto;
+    margin-left: 30px;
+  }
+  .plus{
+    position: absolute;
+    top: 320px;
+    left: 375px;
+    width: 45px;
+    height: 45px;
+    background-color: blue;
+    border-radius: 100%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white 4px;
+  }
+  .header-enregistrer-contact{
+    padding: 20px;
+  }
+  .enregistrer-contact-main{
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+.nimportequoi{
+  width: 35vw;
+border-radius: 10px;
+border: solid #85929E  1px;
+}
+.renseingement{
+  padding: 9px;
+  margin-top: 80px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.ajouter{
+ 
+  border-radius: 20px;
+  background-color: #85C1E9 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid #85929E 1px;
+}
